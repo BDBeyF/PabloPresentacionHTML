@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- La parte fija del fichero xml correspondiente a un rss -->
+<rss version="2.0">
+  <channel>
+    <title>Super Pablo</title>
+    <link>https://bdbeyf.github.io/PabloPresentacionHTML/RSS.xml</link>
+    <description>Pagina inicial del blog de Pablo</description>
+    <!-- La parte fija opcional -->
+    <language>es-ES</language>
+    <image>
+      <title>Pablo Foto</title>
+      <url>https://bdbeyf.github.io/PabloPresentacionHTML/img/imagen_principal.webp</url>
+      <link>https://bdbeyf.github.io/PabloPresentacionHTML/</link>
+      <width>120</width>
+      <height>120</height>
+    </image>
+    <!-- La parte variable, la que corresponde a cada noticia o ítem -->
+    <item>
+      <title>Pagina de Inicio</title>
+      <link>https://bdbeyf.github.io/PabloPresentacionHTML/index.html</link>
+      <description>Pagina principal de presentación</description>
+    </item>
+    <item>
+      <title>Sobre Mi</title>
+      <link>https://bdbeyf.github.io/PabloPresentacionHTML/about_me.html</link>
+      <description>Información y descripción de Pablo</description>
+    </item>
+    <item>
+      <title>Formulario de contacto</title>
+      <link>https://bdbeyf.github.io/PabloPresentacionHTML/contact.html</link>
+      <description>Formulario rellenable para contactar con Pablo</description>
+    </item>
+  </channel>
+</rss>
